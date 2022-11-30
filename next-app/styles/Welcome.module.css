@@ -1,15 +1,15 @@
 .container{
       background-color: white;
-      height: 400px;
-      padding: 0px 50px;
+      height: 350px;
       align-items: left;
-      position: sticky;
-      top: 0;
+      position: relative;
+      overflow: hidden;
 }
 
 .typing{
       color: rgb(38, 11, 94);
       font-size: 20px;
+      margin: 20px;
 }
 
 .item{
@@ -22,7 +22,5 @@
       margin-left: 20px;
 }
 
-.video{
-      
-}
+
 
