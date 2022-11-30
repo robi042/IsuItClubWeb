@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className={styles.container}>
                   <div className={styles.item}>
                         <div className={styles.logo}>
-                              <Image src="/img/isu_logo.jpg" alt="" width="32" height="32" />
+                              <Image src="/img/isu_logo.jpg" alt="" width="50" height="50" />
                         </div>
                         <div className={styles.texts}>
                               <div className={styles.text}>ISU IT CLUB</div>
