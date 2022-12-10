@@ -30,13 +30,15 @@ const Navbar = () => {
                   </motion.div>
                   <div className={styles.item}>
                         <ul className={styles.list}>
-                              <li className={styles.listItem}>Home</li>
-                              <li className={styles.listItem}>Events</li>
-                              <li className={styles.listItem}>Workshops</li>
-                              <li className={styles.listItem}>Blogs</li>
-                              <li className={styles.listItem}>About</li>
-                              <li className={styles.listItem}>Team</li>
+                              <li className={styles.listItem}><a href='#'>Home</a></li>
+                              <li className={styles.listItem}><a href='#'>Events</a></li>
+                              <li className={styles.listItem}><a href='#'>Workshops</a></li>
+                              <li className={styles.listItem}><a href='#'>Blogs</a></li>
+                              <li className={styles.listItem}><a href='#'>About</a></li>
+                              <li className={styles.listItem}><a href='#'>Team</a></li>
+
                         </ul>
+                        
                   </div>
                   <motion.div className={styles.item}
                    initial={{ x: 300, opacity: 0 }}

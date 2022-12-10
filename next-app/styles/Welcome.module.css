@@ -1,26 +1,43 @@
 .container{
       background-color: white;
-      height: 350px;
+      height: 400px;
       align-items: left;
       position: relative;
       overflow: hidden;
 }
 
+.welcomeSec{
+      display: flex;
+      margin: 20px;
+      
+}
+
+.line{
+      height: 1px;
+      width: 70px;
+      background: black;
+      margin-top: 15px;
+}
+
 .typing{
       color: rgb(38, 11, 94);
       font-size: 20px;
-      margin: 20px;
 }
 
-.item{
-      margin: 20px;
+.itemsec{
       display: flex;
-      justify-content: space-between;
+      margin: 20px;
+      
 }
 
-.text{
-      margin-left: 20px;
+.itemsec :nth-child(1) 
+{
+      width: 90%;
+      height: 80%;
 }
-
+.itemsec :nth-child(2) {width:100% }
+.video{
+     width: 100%;
+}
 
 
