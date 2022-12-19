@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Featured from '../componants/Featured'
 import Welcome from '../componants/Welcome'
+import UpcomingEvents from '../componants/upcomingEvents'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
 
      <Featured></Featured>
      <Welcome></Welcome>
+     <UpcomingEvents></UpcomingEvents>
     </div>
   )
 }

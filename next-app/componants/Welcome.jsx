@@ -32,7 +32,7 @@ const Welcome = () => {
       return (
             <div className={styles.container}>
                   <div className={styles.welcomeSec}>
-                        <div class={styles.line}></div>
+                        <div className={styles.line}></div>
                         <div className={styles.typing}>
                               <span>{text}</span>
                               <Cursor cursorColor="#F7AB0A" />

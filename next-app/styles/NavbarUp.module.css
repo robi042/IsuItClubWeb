@@ -19,6 +19,7 @@
 .item:nth-child(2){
       align-items: flex-end;
       flex: 2;
+      margin-left: auto;
 }
 
 .item:last-child(3){
