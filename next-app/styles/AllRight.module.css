@@ -1,0 +1,24 @@
+.container {
+      bottom: 0px;
+      background-color: #36454F;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      
+}
+.text{
+      color: #a0a5b8;
+      flex: 1 1 auto;
+      text-align: end;
+      margin-right: 2px;
+      margin-bottom: 10px;
+}
+.owner{
+      flex: 1 1 auto;
+      text-align: start;
+      margin-left: 2px;
+      color: #FFA500;
+      font-weight: bold;
+      cursor: pointer;
+      margin-bottom: 10px;
+}

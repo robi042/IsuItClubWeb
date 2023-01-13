@@ -13,7 +13,6 @@ export default function Home() {
         <meta name="description" content="It is a club under the dept. of CSE" />
         <link rel="icon" href="/img/isu_logo.jpg" />
       </Head>
-
      <Featured></Featured>
      <Welcome></Welcome>
      <UpcomingEvents></UpcomingEvents>

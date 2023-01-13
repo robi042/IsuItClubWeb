@@ -29,8 +29,9 @@
       position: relative;
     }
     
-    @media screen and (max-width: 480px) {
+    @media (max-width: 600px) {
       .container{
+        margin-top: 10px;
         height: 50vh;
       }
     }

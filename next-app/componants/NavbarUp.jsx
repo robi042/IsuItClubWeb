@@ -40,6 +40,8 @@ function NavbarUp() {
                                     bgColor='transparent'
                               />
                         </motion.div>
+                  </div>
+                  <div className={styles.item}>
                         <div className={styles.upcomingEvents}>
                               Upcoming Events
                         </div>

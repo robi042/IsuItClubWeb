@@ -1,42 +1,62 @@
-.container{
-      background-color: rgb(21, 21, 68);
+/* Default styles for container and items */
+.container {
+      background-color: #F5F5F5;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       height: 40px;
-      padding: 0px 30px;
+  }
+  
+  .item {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      position: sticky;
-      top: 0;
-
-}
-.item{
+      margin: 10px;
+  }
+  
+  /* Styles for the social div */
+  .social {
+      padding: 10px;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      flex: 1;
-}
-
-.item:nth-child(2){
-      align-items: flex-end;
-      flex: 2;
-      margin-left: auto;
-}
-
-.item:last-child(3){
-      justify-content: flex-end;
-      align-items: flex-start;
-      flex: 1;
-}
-
-.upcomingEvents{
-      color: white;
-}
-
-.memberForm{
-      color: white;
-      font-weight: bold;
-      border: 2px solid white;
-      border-radius: 12px;
-      padding: 4px;
-
-}
+  }
+  
+  /* Styles for the social icons */
+  .SocialIcon {
+      margin: 0 10px;
+  }
+  
+  /* Styles for the upcoming events */
+  .upcomingEvents {
+      background-color: #0077B5;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+  }
+  
+  /* Styles for the membership form */
+  .memberForm {
+      background-color: #0077B5;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      margin-left: 10px;
+  }
+  
+  /* Media query for screens smaller than 600px wide */
+  @media (max-width: 600px) {
+      /* Change the container to flex-direction: column */
+      .container {
+          flex-direction: column;
+          height: auto;
+      }
+      /* Change the margin of the items to 0px */
+      .item {
+          margin: 0px;
+      }
+      /* Increase the padding of the social div */
+      .social {
+          padding: 20px;
+      }
+  }
+  
