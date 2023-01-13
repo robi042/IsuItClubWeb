@@ -32,6 +32,7 @@
       color: #fff;
       padding: 10px;
       border-radius: 5px;
+      cursor: pointer;
   }
   
   /* Styles for the membership form */
@@ -41,6 +42,7 @@
       padding: 10px;
       border-radius: 5px;
       margin-left: 10px;
+      cursor: pointer;
   }
   
   /* Media query for screens smaller than 600px wide */

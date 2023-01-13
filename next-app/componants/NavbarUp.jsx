@@ -2,10 +2,14 @@ import React from 'react'
 import styles from "../styles/NavbarUp.module.css"
 import { SocialIcon } from "react-social-icons"
 import { motion } from "framer-motion";
-import Image from "next/image"
+import { useRouter } from 'next/router'
 
 
 function NavbarUp() {
+      const router = useRouter()
+      const handleClick = () => {
+            router.push('/registration')
+          }
       return (
             <div className={styles.container}>
                   <div className={styles.item}>
@@ -45,7 +49,7 @@ function NavbarUp() {
                         <div className={styles.upcomingEvents}>
                               Upcoming Events
                         </div>
-                        <div className={styles.memberForm}>
+                        <div className={styles.memberForm} onClick={handleClick}>
                               Membership Form
                         </div>
                   </div>
